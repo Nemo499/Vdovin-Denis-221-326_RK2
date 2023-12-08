@@ -64,10 +64,6 @@ body{
     background: var(--colorG);
     box-sizing: border-box;
 }
-.parant_main{
-    display: grid;
-    
-}
 .pickB{
     height: 41.6rem;
     flex-shrink: 0;
@@ -81,4 +77,16 @@ body{
 }
 .podCherk {
     text-decoration: none;
+}
+.cont{
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+}
+.pict{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.text{
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
