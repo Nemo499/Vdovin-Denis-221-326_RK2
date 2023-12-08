@@ -2,6 +2,7 @@
     font-size: 62.5%;
     --colorW:#FFF;
     --colorB:#08080C;
+    --colorG:#1EE1B3;
 }
 body{
     font-family: Barlow;
@@ -13,6 +14,7 @@ body{
     font-size: 1.4rem;
     font-weight: 400;
     line-height: normal;
+    box-sizing: border-box;
 }
 .hedT2{
     color: var(--colorB);
@@ -20,24 +22,29 @@ body{
     font-size: 1.4rem;
     font-weight: 900;
     line-height: normal;
+    box-sizing: border-box;
 }
 .zag{
     color: var(--colorW);
     font-size: 3rem;
     font-weight: 700;
     line-height: normal;
+    margin: 0;
+    box-sizing: border-box;
 }
 .main_t_Z{
     color: var(--colorW);
     font-size: 2rem;
     font-weight: 700;
     line-height: normal;
+    box-sizing: border-box;
 }
 .main_t_O{
     color: var(--colorW);
     font-size: 1.3rem;
     font-weight: 400;
     line-height: 125%; /* 16.25px */
+    box-sizing: border-box;
 }
 .fonB{
     background: var(--colorB);
@@ -46,4 +53,32 @@ body{
 .hir{
     width: 37.5rem;
     flex-shrink: 0;
+}
+.hederrazm{
+    margin: 0;
+}
+.parent_hed_Z{
+    height: 4.2rem;
+    flex-shrink: 0;
+    border-radius: 0.3rem;
+    background: var(--colorG);
+    box-sizing: border-box;
+}
+.parant_main{
+    display: grid;
+    
+}
+.pickB{
+    height: 41.6rem;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    object-fit:contain;
+}
+.List1{
+
+    display: flex;
+    flex-direction: column;
+}
+.podCherk {
+    text-decoration: none;
 }
