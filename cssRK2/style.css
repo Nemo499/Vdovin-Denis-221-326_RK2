@@ -1,0 +1,49 @@
+:root{
+    font-size: 62.5%;
+    --colorW:#FFF;
+    --colorB:#08080C;
+}
+body{
+    font-family: Barlow;
+    font-style: normal;
+}
+.hedT1{
+    color: var(--colorW);
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+}
+.hedT2{
+    color: var(--colorB);
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: normal;
+}
+.zag{
+    color: var(--colorW);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.main_t_Z{
+    color: var(--colorW);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.main_t_O{
+    color: var(--colorW);
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 125%; /* 16.25px */
+}
+.fonB{
+    background: var(--colorB);
+
+}
+.hir{
+    width: 37.5rem;
+    flex-shrink: 0;
+}
